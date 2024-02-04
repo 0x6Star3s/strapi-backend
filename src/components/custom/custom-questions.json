@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_custom_custom_questions",
+  "info": {
+    "displayName": "custom_questions",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "asked_questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.question"
+    }
+  }
+}

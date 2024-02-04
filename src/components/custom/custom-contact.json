@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_custom_custom_contacts",
+  "info": {
+    "displayName": "custom_contact",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "span": {
+      "type": "string"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.image"
+    },
+    "button": {
+      "displayName": "button",
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button"
+    },
+    "politics": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

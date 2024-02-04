@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_custom_custom_headers",
+  "info": {
+    "displayName": "custom_header",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "animation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.custom-animation"
+    },
+    "about_us": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.custom-about-us"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.image",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button-link",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_elements_custom_about_uses",
+  "info": {
+    "displayName": "custom about us"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "left": {
+      "type": "string"
+    },
+    "right": {
+      "type": "string"
+    }
+  }
+}

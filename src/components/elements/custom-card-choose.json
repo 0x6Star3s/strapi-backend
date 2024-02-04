@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_elements_custom_card_chooses",
+  "info": {
+    "displayName": "custom card choose"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_error_errors",
+  "info": {
+    "displayName": "errors",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "messageNotFound": {
+      "type": "string"
+    },
+    "messageNotFoundBlog": {
+      "type": "string"
+    },
+    "returnMessageBlog": {
+      "type": "string"
+    },
+    "returnMessageHome": {
+      "type": "string"
+    }
+  }
+}

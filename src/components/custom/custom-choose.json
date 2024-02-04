@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_custom_custom_chooses",
+  "info": {
+    "displayName": "custom_choose",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "card_list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.custom-card-choose"
+    }
+  }
+}

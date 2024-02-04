@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_elements_custom_animations",
+  "info": {
+    "displayName": "Custom-animation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "base_velocity": {
+      "type": "biginteger"
+    },
+    "view": {
+      "type": "boolean"
+    }
+  }
+}

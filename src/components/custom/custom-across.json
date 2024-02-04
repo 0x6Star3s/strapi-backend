@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_custom_custom_acrosses",
+  "info": {
+    "displayName": "custom_across",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "card_acrosses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cord-across.cord-across"
+    }
+  }
+}

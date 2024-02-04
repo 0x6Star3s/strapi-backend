@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_custom_custom_abouts",
+  "info": {
+    "displayName": "custom-about",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "section": {
+      "type": "string",
+      "required": true
+    },
+    "animation": {
+      "type": "boolean"
+    },
+    "count": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.card-count"
+    }
+  }
+}

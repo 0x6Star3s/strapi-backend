@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_custom_custom_works",
+  "info": {
+    "displayName": "custom-work",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "section": {
+      "type": "string"
+    },
+    "animation": {
+      "type": "boolean"
+    },
+    "crad": {
+      "displayName": "aniation card GLSL",
+      "type": "component",
+      "repeatable": true,
+      "component": "custom.aniation-card-glsl"
+    }
+  }
+}

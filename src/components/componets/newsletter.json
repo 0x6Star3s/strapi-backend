@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_componets_newsletters",
+  "info": {
+    "displayName": "newsletter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "unique": false,
+      "required": true
+    }
+  }
+}

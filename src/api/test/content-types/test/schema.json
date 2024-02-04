@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "tests",
+  "info": {
+    "singularName": "test",
+    "pluralName": "tests",
+    "displayName": "test",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sdf": {
+      "type": "customField",
+      "customField": "plugin::country-select.country"
+    },
+    "title": {
+      "type": "customField",
+      "customField": "plugin::componentpreview.preview",
+      "options": {
+        "url": "uploads/home4_4aa842cf18.jpg"
+      }
+    },
+    "links": {
+      "type": "component",
+      "repeatable": false,
+      "component": "test.button"
+    }
+  }
+}

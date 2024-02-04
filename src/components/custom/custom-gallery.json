@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_custom_custom_galleries",
+  "info": {
+    "displayName": "custom_gallery",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.custom-image-card"
+    }
+  }
+}

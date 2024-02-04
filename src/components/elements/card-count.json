@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_elements_card_counts",
+  "info": {
+    "displayName": "card-count",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "start": {
+      "type": "integer",
+      "default": 0,
+      "required": true
+    },
+    "end": {
+      "type": "biginteger",
+      "default": "100",
+      "required": true
+    },
+    "delay": {
+      "type": "biginteger",
+      "default": "0",
+      "required": false
+    },
+    "leftText": {
+      "type": "string"
+    },
+    "rightText": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
